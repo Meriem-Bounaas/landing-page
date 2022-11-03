@@ -10,16 +10,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <link href="./fontawsom/css/all.css" rel="stylesheet">
-    <link href="./fontawsom/css/solid.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">    <link rel="icon" href="./media/logo.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="./media/logo.ico" />
 </head>
 
 <body class="font-my-font">
-    <nav class="fixed w-full h-12 bg-fifth-color opacity-90 md:bg-fifth-color">
+    <nav class="fixed w-full h-12 bg-fifth-color opacity-90 lg:bg-fifth-color">
         <div class="container">
             <input type="checkbox" id="my-checkbox" />
             <div id="hamburger">
@@ -27,47 +27,51 @@
                 <span class='line line2'></span>
                 <span class='line line3'></span>
             </div>
-            <ul id="menu" class="capitalize text-xl text-first-color bg-forth-color md:bg-fifth-color">
-                <li><a href="#home" class="menu-item md:hover:text-third-color md:hover:text-2xl">home</a></li>
-                <li><a href="#about" class="menu-item md:hover:text-third-color md:hover:text-2xl">about us</a></li>
-                <li><a href="#application" class="menu-item md:hover:text-third-color md:hover:text-2xl">application</a></li>
-                <li><a href="#contact" class="menu-item md:hover:text-third-color md:hover:text-2xl">contact us</a></li>
+            <ul id="menu" class="capitalize text-xl text-first-color bg-forth-color lg:bg-fifth-color">
+                <li><a href="#home" class="menu-item lg:hover:text-green-800
+                    lg:duration-500 lg:transition-colors">home</a></li>
+                <li><a href="#about" class="menu-item lg:hover:text-green-800
+                    lg:duration-500 lg:transition-colors">about us</a></li>
+                <li><a href="#application" class="menu-item lg:hover:text-green-800
+                    lg:duration-500 lg:transition-colors">application</a></li>
+                <li><a href="#contact" class="menu-item lg:hover:text-green-800
+                    lg:duration-500 lg:transition-colors">contact us</a></li>
             </ul>
         </div>
     </nav>
 
-    <section id="home" class="flex flex-col w-full pt-12 md:pt-20 items-center">
-        <div class="flex md:flex-row flex-col md:items-center">
-            <img class="w-1/2 mx-auto md:hidden" src="./media/Pousse-de-tournesol.png" alt="img" />
-            <div class="flex flex-col md:w-1/2  md:pl-32">
-                <h2 class="capitalize text-third-color text-3xl mb-5 md:mb-10 w-fit mx-auto md:ml-0">microgreens</h2>
+    <section id="home" class="flex flex-col w-full pt-12 lg:pt-20 items-center">
+        <div class="flex lg:flex-row flex-col lg:items-center">
+            <img class="w-1/2 mx-auto lg:hidden" src="./media/Pousse-de-tournesol.png" alt="img" />
+            <div class="flex flex-col lg:w-1/2  lg:pl-32">
+                <h2 class="capitalize text-third-color text-3xl mb-5 lg:mb-10 w-fit mx-auto lg:ml-0">microgreens</h2>
                 <p
-                    class="text-third-color text-justify px-5 md:px-0 md:w-11/12 md:text-left md:text-2xl text-xl font-font-text">
+                    class="text-third-color text-justify px-5 lg:px-0 lg:w-11/12 lg:text-left lg:text-2xl text-xl font-font-text">
                     Great for garnishing ready meals. At the end of the last century, California restaurants began to be
                     used. Gradually this fashion has spread, crossed the ocean, but only in recent years has interset to
                     microgreens began to grow rapidly.
                 </p>
-                <button class="bg-first-color md:relative  p-2 md:z-[1] mx-auto md:w-1/3 md:ml-0 md:mt-10 rounded-full capitalize
-                        text-forth-color text-base md:text-xl md:p-3 w-1/2 my-7 
-                        md:before:h-full md:before:w-0 md:before:bg-green-800 md:before:rounded-full md:before:content-[''] md:before:transition-all
-                        md:before:duration-700 md:before:absolute  md:overflow-hidden
-                        md:before:left-0 md:before:bottom-0 md:hover:before:w-full md:before:z-[-1] 
+                <button class="bg-first-color lg:relative  p-2 lg:z-[1] mx-auto lg:w-1/3 lg:ml-0 lg:mt-10 rounded-full capitalize
+                        text-forth-color text-base lg:text-xl lg:p-3 w-1/2 my-7 
+                        lg:before:h-full lg:before:w-0 lg:before:bg-green-800 lg:before:rounded-full lg:before:content-[''] lg:before:transition-all
+                        lg:before:duration-700 lg:before:absolute  lg:overflow-hidden
+                        lg:before:left-0 lg:before:bottom-0 lg:hover:before:w-full lg:before:z-[-1] 
                     ">more</button>
             </div>
-            <img class="hidden md:w-[35%] md:block md:mx-auto" src="./media/Pousse-de-tournesol.png" alt="img" />
+            <img class="hidden lg:w-[35%] lg:block lg:mx-auto" src="./media/Pousse-de-tournesol.png" alt="img" />
         </div>
         <div
-            class="mt-7 md:mt-28 md:w-full md:h-[80vh] md:bg-no-repeat md:bg-contain md:bg-[url('./media/micro-greens.png')]">
+            class="mt-7 lg:mt-28 lg:w-full lg:h-[80vh] lg:bg-no-repeat lg:bg-contain lg:bg-[url('./media/micro-greens.png')]">
         </div>
     </section>
 
     <section id="about" class="flex flex-col w-full pt-10 items-center p-2">
-        <div class="flex flex-col md:flex-row md:items-center">
-            <img class="w-1/2 mx-auto md:ml-14" src="./media/grain.png" alt="img" />
-            <div class="flex flex-col mb-10 md:pl-48">
-                <h2 class="capitalize text-third-color text-3xl mb-5 w-fit mx-auto md:ml-0">about us</h2>
+        <div class="flex flex-col lg:flex-row lg:items-center">
+            <img class="w-1/2 mx-auto lg:ml-14" src="./media/grain.png" alt="img" />
+            <div class="flex flex-col mb-10 lg:pl-48">
+                <h2 class="capitalize text-third-color text-3xl mb-5 w-fit mx-auto lg:ml-0">about us</h2>
                 <p
-                    class="text-third-color text-justify px-5 md:w-[85%] md:text-left md:pl-0 md:text-2xl text-xl font-font-text">
+                    class="text-third-color text-justify px-5 lg:w-[85%] lg:text-left lg:pl-0 lg:text-2xl text-xl font-font-text">
                     We work in a pres-order system, based on the timing of growing specific types of microgreens, In
                     cases
                     of long-term cooperation, a contact for the supply of products is concluded. Changes in order
@@ -78,27 +82,27 @@
                 </p>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row md:gap-10 md:mt-28">
+        <div class="flex flex-col lg:flex-row lg:gap-10 lg:mt-28">
             <div class="w-9/12 mb-7 text-third-color text-lg mx-auto">
-                <img class="md:hover:scale-95 md:hover:transition-transform md:hover:duration-300 hover:cursor-pointer"
+                <img class="lg:hover:scale-95 lg:hover:transition-transform lg:hover:duration-300 shadow-md shadow-gray-600 cursor-pointer"
                     src="./media/purple.png" alt="img" />
-                <div class="flex flex-row justify-between md:flex-col">
+                <div class="flex flex-row justify-between lg:flex-col">
                     <h2 class="mt-5 text-xl">Purple fog</h2>
                     <h5 class="mt-3 text-first-color text-3xl">16 $</h5>
                 </div>
             </div>
             <div class="w-9/12 mb-7 text-third-color text-lg mx-auto">
-                <img class="md:hover:scale-95 md:hover:transition-transform md:hover:duration-300 hover:cursor-pointer"
+                <img class="lg:hover:scale-95 lg:hover:transition-transform lg:hover:duration-300 shadow-md shadow-gray-600 cursor-pointer"
                     src="./media/shining.png" alt="img" />
-                <div class="flex flex-row justify-between md:flex-col">
+                <div class="flex flex-row justify-between lg:flex-col">
                     <h2 class="mt-5 text-xl">Shining stars</h2>
                     <h5 class="mt-3 text-3xl text-first-color">27 $</h5>
                 </div>
             </div>
             <div class="w-9/12 mb-7 text-third-color text-lg mx-auto">
-                <img class="md:hover:scale-95 md:hover:transition-transform md:hover:duration-300 hover:cursor-pointer"
+                <img class="lg:hover:scale-95 lg:hover:transition-transform lg:hover:duration-300 shadow-md shadow-gray-600 cursor-pointer"
                     src="./media/green.png" alt="img" />
-                <div class="flex flex-row justify-between md:flex-col">
+                <div class="flex flex-row justify-between lg:flex-col">
                     <h2 class="mt-5 text-xl">The Green Dream</h2>
                     <h5 class="mt-3 text-3xl text-first-color">38 $</h5>
                 </div>
@@ -107,47 +111,47 @@
     </section>
 
     <section id="application"
-        class="flex flex-col md:bg-[url('./media/cooking.png')] md:bg-fifth-color md:h-screen md:bg-no-repeat md:mt-28 md:bg-contain md:flex-row md:w-full pt-14 md:px-60 items-center md:align-middle md:justify-end bg-fifth-color p-2">
-        <div class="flex flex-col md:w-1/2 md:pl-10">
-            <h2 class="capitalize text-third-color text-xl mb-5 w-fit mx-auto md:ml-0">application of microgreens</h2>
-            <p class="text-third-color text-justify px-5 md:pl-0 md:text-2xl md:text-left font-font-text text-xl">
+        class="flex flex-col lg:bg-[url('./media/cooking.png')] lg:bg-fifth-color lg:h-screen lg:bg-no-repeat lg:mt-28 lg:bg-contain lg:flex-row lg:w-full pt-14 lg:px-60 items-center lg:align-middle lg:justify-end bg-fifth-color p-2">
+        <div class="flex flex-col lg:w-1/2 lg:pl-10">
+            <h2 class="capitalize text-third-color text-xl mb-5 w-fit mx-auto lg:ml-0">application of microgreens</h2>
+            <p class="text-third-color text-justify px-5 lg:pl-0 lg:text-2xl lg:text-left font-font-text text-xl">
                 In cooking, the use of microgreens is almost limitless - they are added in any sandwiches, salads,
                 soups, green smoothiies, smoothies, in other drinks and dishes as a filling or even as a decoration.
                 Sush an additive is not only useful, it is able to give a familiar dish a special piquancy and unique
                 taste.
             </p>
-            <button class="bg-first-color md:relative md:w-1/2 p-2 md:z-[1] mx-auto md:ml-0 md:mt-10 rounded-full capitalize
-                        text-forth-color text-base md:text-xl md:p-3 w-1/2 my-7 
-                        md:before:h-full md:before:w-0 md:before:bg-green-800 md:before:rounded-full md:before:content-[''] md:before:transition-all
-                        md:before:duration-700 md:before:absolute  md:overflow-hidden
-                        md:before:left-0 md:before:bottom-0 md:hover:before:w-full md:before:z-[-1] 
+            <button class="bg-first-color lg:relative lg:w-1/2 p-2 lg:z-[1] mx-auto lg:ml-0 lg:mt-10 rounded-full capitalize
+                        text-forth-color text-base lg:text-xl lg:p-3 w-1/2 my-7 
+                        lg:before:h-full lg:before:w-0 lg:before:bg-green-800 lg:before:rounded-full lg:before:content-[''] lg:before:transition-all
+                        lg:before:duration-700 lg:before:absolute  lg:overflow-hidden
+                        lg:before:left-0 lg:before:bottom-0 lg:hover:before:w-full lg:before:z-[-1] 
                     ">recipes</button>
         </div>
 
     </section>
 
-    <section id="contact" class="flex flex-col md:flex-row items-center mt-10">
-        <img class="w-1/2 md:hidden mx-auto" src="./media/meal.png" alt="img" />
-        <div class="flex flex-col w-4/5 md:w-[45%] md:pl-40">
-            <h2 class="capitalize text-3xl text-third-color text-center md:text-left md:mb-5">contact us</h2>
-            <input class="border-b-4 border-fifth-color h-14 md:h-16" type="text" placeholder="Name">
-            <input class="border-b-4 border-fifth-color h-14 md:h-16" type="email" placeholder="E-mail" />
-            <input class="border-b-4 border-fifth-color h-14 md:h-16" type="text" placeholder="Comment" />
-            <button class="bg-first-color md:relative  p-2 md:z-[1] mx-auto md:w-1/2 md:ml-0 md:mt-10 rounded-full capitalize
-                        text-forth-color text-base md:text-xl md:p-3 w-1/2 my-7
-                        md:before:h-full md:before:w-0 md:before:bg-green-800 md:before:rounded-full md:before:content-[''] md:before:transition-all
-                        md:before:duration-700 md:before:absolute  md:overflow-hidden
-                        md:before:left-0 md:before:bottom-0 md:hover:before:w-full md:before:z-[-1] 
+    <section id="contact" class="flex flex-col lg:flex-row items-center mt-10">
+        <img class="w-1/2 lg:hidden mx-auto" src="./media/meal.png" alt="img" />
+        <div class="flex flex-col w-4/5 lg:w-[45%] lg:pl-40">
+            <h2 class="capitalize text-3xl text-third-color text-center lg:text-left lg:mb-5">contact us</h2>
+            <input class="border-b-4 border-fifth-color h-14 lg:h-16" type="text" placeholder="Name">
+            <input class="border-b-4 border-fifth-color h-14 lg:h-16" type="email" placeholder="E-mail" />
+            <input class="border-b-4 border-fifth-color h-14 lg:h-16" type="text" placeholder="Comment" />
+            <button class="bg-first-color lg:relative  p-2 lg:z-[1] mx-auto lg:w-1/2 lg:ml-0 lg:mt-10 rounded-full capitalize
+                        text-forth-color text-base lg:text-xl lg:p-3 w-1/2 my-7
+                        lg:before:h-full lg:before:w-0 lg:before:bg-green-800 lg:before:rounded-full lg:before:content-[''] lg:before:transition-all
+                        lg:before:duration-700 lg:before:absolute  lg:overflow-hidden
+                        lg:before:left-0 lg:before:bottom-0 lg:hover:before:w-full lg:before:z-[-1] 
                     ">send</button>
         </div>
-        <img class="hidden md:block w-2/5 ml-7 md:ml-28" src="./media/meal.png" alt="img" />
+        <img class="hidden lg:block w-2/5 ml-7 lg:ml-28" src="./media/meal.png" alt="img" />
     </section>
 
     <section
-        class="bg-first-color md:justify-between h-20 md:h-28 justify-center flex items-center md:pr-20 md:mt-10 font-font-text">
-        <div class="text-forth-color text-sm md:text-base hidden md:block pl-20">Copyright Meriem bounaas</div>
-        <div class="flex flex-row gap-2 text-forth-color text-sm md:text-base items-center md:cursor-pointer">
-            <i class="fa-solid fa-envelope"></i>
+        class="bg-first-color lg:justify-between h-20 lg:h-28 justify-center flex items-center lg:pr-20 lg:mt-10 font-font-text">
+        <div class="text-forth-color text-sm lg:text-base hidden lg:block pl-20">Copyright Meriem bounaas</div>
+        <div class="flex flex-row gap-2 text-forth-color text-sm lg:text-base items-center lg:cursor-pointer">
+            <i class="fas fa-envelope"></i>
             <span>microgreens@gmail.com</span>
         </div>
     </section>
